@@ -76,18 +76,19 @@
     let state = false;
     eye.addEventListener("click",function(){
         if(state == false){
+
           eye.innerHTML  = '<i class="fas fa-eye eye"></i>';
 
           state = true;
-
-          password.setAttribute("type" ,"password");
+          password.setAttribute("type" ,"text");
+        
 
         }else if(state == true){
+         
           eye.innerHTML  = '<i class="fas fa-eye-slash eye"></i>';
 
           state = false;
-          password.setAttribute("type" ,"text");
+
+          password.setAttribute("type" ,"password");
         }
-        
-      
     });
