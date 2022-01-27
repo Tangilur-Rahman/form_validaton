@@ -70,6 +70,8 @@
 
    });
 
+  
+//    show / hide password
 
    let eye = document.getElementById("span");
 
