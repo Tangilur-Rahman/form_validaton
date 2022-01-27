@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap');
+
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Mochiy Pop P One', sans-serif;
+}
+body{
+    background-color: cadetblue;
+}
+#container{
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    background-color: white;
+    padding: 50px;
+    border-radius: 30px;
+    box-shadow: 2px -1px 22px 3px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 2px -1px 22px 3px rgba(0,0,0,0.75);
+    -moz-box-shadow: 2px -1px 22px 3px rgba(0,0,0,0.75);
+    align-items: center;
+}
+h2{
+    text-align: center;
+}
+
+.input-class{
+    padding: 10px;
+    position: relative;
+    
+}
+input{
+    margin-top: 10px;
+    width: 250px;
+    padding: 20px;
+    font-size: 16px;
+}
+
+
+.icon-con{
+    
+    padding-right: 10px;
+    margin-top: 5px;
+    color: red;
+}
+
+button{
+    width: 250px;
+    padding: 10px;
+    margin-top: 20px;
+    font-size: 20px;
+    background-color: royalblue;
+    color: white;
+    font-weight: 500;
+
+}
+
+.eye{
+    position: absolute;
+    top : 50%;
+    right: 20px;
+    font-size: 17px;
+}
