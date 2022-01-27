@@ -81,16 +81,16 @@
 
           eye.innerHTML  = '<i class="fas fa-eye eye"></i>';
 
-          state = true;
           password.setAttribute("type" ,"text");
         
+             state = true;
 
         }else if(state == true){
          
           eye.innerHTML  = '<i class="fas fa-eye-slash eye"></i>';
-
-          state = false;
-
+          
           password.setAttribute("type" ,"password");
+          
+          state = false;
         }
     });
